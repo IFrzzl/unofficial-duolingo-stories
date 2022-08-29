@@ -30,6 +30,7 @@ create table language
     flag_file    varchar(50)                 null,
     speaker      varchar(50)                 null,
     rtl          tinyint default 0           not null,
+    conlang      int     default 0           not null,
     default_text varchar(100)                null
 )
     collate = utf8_unicode_ci;
